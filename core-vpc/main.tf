@@ -45,7 +45,6 @@ module "vpc_endpoints" {
     s3 = {
       service = "s3"
       tags    = { Name = "s3-vpc-endpoint" }
-      //route_table_ids = ([module.vpc.intra_route_table_ids, module.vpc.private_route_table_ids, module.vpc.public_route_table_ids])
     },
   }
 }

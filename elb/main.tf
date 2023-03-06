@@ -34,6 +34,4 @@ module "elb" {
     Environment = "production"
   }
 
-  //route53_zone_name = "${var.route53_zone_name}"
-  //route53_record_name = "${var.route53_record_name}"
 }
